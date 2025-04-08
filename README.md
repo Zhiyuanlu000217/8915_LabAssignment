@@ -1,5 +1,13 @@
 # 8915_LabAssignment
 
+## Deployment Files subfolder:
+
+There are three subfolders, `Deployment`, `Service` and `Envs`, for `Envs`, it contains `ConfigMaps` and `Secrets`, since some of the service depend on secrets and some depend on configmaps.
+
+In `Deployment` and `Service` folder, the files are named `{service_name}.yaml`, for example, `/Deployment/ai-service.yml` is the deployment file for ai service. In `Envs` folder, the files are named `{service_name}_{secret|configmap}.yaml`.
+
+Also, in each folder, I have a `all-in-one-{deployment|svc|envs}.yaml`, if you prefer read all configs in one file.
+
 ## Updated Application Architecture:
 
 <img width="715" alt="Screenshot 2025-04-08 at 7 06 26 PM" src="https://github.com/user-attachments/assets/267d33bf-2c70-4ff8-8f95-5392076774d5" />
