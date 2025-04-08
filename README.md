@@ -1,5 +1,8 @@
 # 8915_LabAssignment
 
+> [!Note]
+> CI/CD pipeline for each microservices pipeline is implemented.
+
 ## Deployment Files subfolder:
 
 There are three subfolders, `Deployment`, `Service` and `Envs`, for `Envs`, it contains `ConfigMaps` and `Secrets`, since some of the service depend on secrets and some depend on configmaps.
